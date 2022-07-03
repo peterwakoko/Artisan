@@ -1,0 +1,290 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display:flex;
+    padding: 5px;
+    background-color: rgb(245, 243, 243);
+    justify-content: space-between;
+}
+
+span{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 4px;
+
+}
+
+header ul li a{
+    color: #121212;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.login{
+    font-weight: bold;
+}
+
+.line-1{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+
+}
+
+.line-2{
+    height: 1px;
+    background-color: #121212;
+    border:none;
+
+}
+.design-now{
+    text-align: center;
+    border: 1px solid;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+.design-options ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.design-options ul li a{
+    color: #121212;
+    text-decoration: none;
+}
+
+.buy-now{
+    text-align: center;
+    border: 1px solid;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.discover-now{
+    text-align: center;
+    border: 1px solid;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.options{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 15px;
+    width: 120px;
+    padding-left: 28px;
+    margin: 10px;
+    margin-left: 80px;
+    font-size: 14px;
+}
+
+
+.option-circle-1{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 49px;
+    background-color: rgb(206, 199, 199);
+    left: -27px;
+    top:112px;
+}
+
+.option-circle-2{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 1px;
+    background-color: rgb(206, 199, 199);
+    left: 273px;
+    top:112px;
+}
+
+.option-circle-3{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 81px;
+    background-color: rgb(206, 199, 199);
+    left: 453px;
+    top:112px;
+}
+
+.option-circle-4{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 31px;
+    background-color: rgb(206, 199, 199);
+    left: 723px;
+    top:112px;
+}
+
+.option-circle-5{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 121px;
+    background-color: rgb(206, 199, 199);
+    left: 873px;
+    top:112px;
+}
+
+.option-circle-6{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 211px;
+    background-color: rgb(206, 199, 199);
+    left: 1023px;
+    top:112px;
+}
+
+ .option-1{
+    position:absolute;
+    left: 10px;
+    top: 100px;
+
+}
+.option-2{
+    position:absolute;
+    right: 970px;
+    top: 100px;
+}
+.option-3{
+    position:absolute;
+    right: 710px;
+    top: 100px;
+}
+
+.option-4{
+    position:absolute;
+    right: 490px;
+    top:100px ;
+}
+
+.option-5{
+    position:absolute;
+    right: 250px;
+    top:100px;
+}
+
+
+.option-6{
+    position:absolute;
+    right: 10px;
+    top: 100px;
+} 
+
+.Buy-container{
+    margin-top: 60px;
+}
+
+.design-1{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.design-2{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.design-3{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.design-4{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.designs{
+display: flex;
+}
+
+.design-caption{
+    position:absolute;
+    bottom: 10px;
+    left: 110px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 25px;
+    width: 130px;
+    text-align: center;
+    background-color: #fff;
+}
