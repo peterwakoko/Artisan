@@ -24,6 +24,7 @@ span{
     color: red;
     font-weight: bold;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 header ul li{
@@ -65,8 +66,9 @@ header ul li a{
     font-weight: bold;
     padding: 10px;
     margin-top: 5px;
-
+    width: 185px;
 }
+
 
 .design-options ul li {
     display: inline-block;
@@ -79,6 +81,10 @@ header ul li a{
     text-decoration: none;
 }
 
+.Buy-container{
+    margin-top: -50px;
+}
+
 .buy-now{
     text-align: center;
     border: 1px solid;
@@ -86,9 +92,10 @@ header ul li a{
     margin-right: 600px;
     font-weight: bold;
     padding: 10px;
-
+    width: 185px;
+    margin-bottom: 20px;
 }
-
+/* 
 .discover-now{
     text-align: center;
     border: 1px solid;
@@ -96,7 +103,7 @@ header ul li a{
     margin-right: 600px;
     font-weight: bold;
     padding: 10px;
-}
+} */
 
 .options{
     border: 1px solid #ccc;
@@ -224,10 +231,6 @@ header ul li a{
     top: 100px;
 } 
 
-.Buy-container{
-    margin-top: 60px;
-}
-
 .design-1{
     position: relative;
     border: none;
@@ -278,6 +281,367 @@ display: flex;
 }
 
 .design-caption{
+    position:absolute;
+    bottom: 10px;
+    left: 110px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 25px;
+    width: 130px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.option-a{
+    position:absolute;
+    left: 10px;
+    top: 538px;
+}
+
+.option-b{
+    position:absolute;
+    right: 970px;
+    top: 538px;
+}
+
+.option-c{
+    position:absolute;
+    right: 710px;
+    top: 538px;
+}
+
+.option-d{
+    position:absolute;
+    right: 490px;
+    top:538px ;
+}
+
+.option-e{
+    position:absolute;
+    right: 250px;
+    top:538px;
+}
+
+.option-f{
+    position:absolute;
+    right: 10px;
+    top: 538px;
+}
+
+.option-circle-a{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 49px;
+    background-color: rgb(206, 199, 199);
+    left: -27px;
+    top:550px;
+}
+
+.option-circle-b{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 1px;
+    background-color: rgb(206, 199, 199);
+    left: 273px;
+    top:550px;
+}
+
+.option-circle-c{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 81px;
+    background-color: rgb(206, 199, 199);
+    left: 453px;
+    top:550px;
+}
+
+.option-circle-d{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 31px;
+    background-color: rgb(206, 199, 199);
+    left: 723px;
+    top:550px;
+}
+
+.option-circle-e{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 121px;
+    background-color: rgb(206, 199, 199);
+    left: 873px;
+    top:550px;
+}
+
+.option-circle-f{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 211px;
+    background-color: rgb(206, 199, 199);
+    left: 1023px;
+    top:550px;
+}
+
+.buy{
+    display: flex;
+}
+
+.buy-1{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.buy-2{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.buy-3{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.buy-4{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.buy-caption{
+    position:absolute;
+    bottom: 10px;
+    left: 110px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 25px;
+    width: 130px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.discover-now{
+    text-align: center;
+    border: 1px solid;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-weight: bold;
+    padding: 10px;
+    width: 185px;
+    margin-bottom: 20px;
+}
+
+.option-i{
+    position:absolute;
+    left: 10px;
+    top: 1007px;
+}
+
+.option-ii{
+    position:absolute;
+    right: 970px;
+    top: 1007px;
+}
+
+.option-iii{
+    position:absolute;
+    right: 710px;
+    top: 1007px;
+}
+
+.option-iv{
+    position:absolute;
+    right: 490px;
+    top:1007px ;
+}
+
+.option-v{
+    position:absolute;
+    right: 250px;
+    top:1007px;
+}
+
+.option-vi{
+    position:absolute;
+    right: 10px;
+    top: 1007px;
+}
+
+.option-circle-i{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 49px;
+    background-color: rgb(206, 199, 199);
+    left: -27px;
+    top:1019px;
+}
+
+.option-circle-ii{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 1px;
+    background-color: rgb(206, 199, 199);
+    left: 273px;
+    top:1019px;
+}
+
+.option-circle-iii{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 81px;
+    background-color: rgb(206, 199, 199);
+    left: 453px;
+    top:1019px;
+}
+
+.option-circle-iv{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 31px;
+    background-color: rgb(206, 199, 199);
+    left: 723px;
+    top:1019px;
+}
+
+.option-circle-v{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 121px;
+    background-color: rgb(206, 199, 199);
+    left: 873px;
+    top:1019px;
+}
+
+.option-circle-vi{
+    position:absolute;
+    border:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-bottom:-28px ;
+    margin-left: 211px;
+    background-color: rgb(206, 199, 199);
+    left: 1023px;
+    top:1019px;
+}
+
+.discover{
+    display: flex;
+}
+
+.Discover-1{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Discover-2{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.Discover-3{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.Discover-4{
+    position: relative;
+    border: none;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.discover-caption{
     position:absolute;
     bottom: 10px;
     left: 110px;
